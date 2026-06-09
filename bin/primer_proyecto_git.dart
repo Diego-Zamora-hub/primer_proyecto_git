@@ -8,4 +8,5 @@ void main() {
   };
 
   mostrar(contactos);
+  buscar(contactos, "juan");
 }

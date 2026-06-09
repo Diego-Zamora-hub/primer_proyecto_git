@@ -8,4 +8,10 @@ void xd() {
   print("xd");
 }
 
-void buscar() {}
+void buscar(Map<String, String> contactos, k) {
+  if (contactos.containsKey(k)) {
+    print("Encontrada");
+  } else {
+    print("No encontrada");
+  }
+}

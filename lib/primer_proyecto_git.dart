@@ -7,3 +7,5 @@ void mostrar(Map<String, String> contactos) {
 void xd() {
   print("xd");
 }
+
+void buscar() {}

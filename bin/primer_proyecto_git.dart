@@ -1,4 +1,4 @@
-import 'package:primer_proyecto_git/primer_proyecto_git.dart';
+import '../lib/primer_proyecto_git.dart';
 
 void main() {
   Map<String, String> contactos = {

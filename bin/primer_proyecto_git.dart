@@ -1,5 +1,11 @@
-import 'package:primer_proyecto_git/primer_proyecto_git.dart' as primer_proyecto_git;
-
 void main(List<String> arguments) {
-  print('Hello world: ${primer_proyecto_git.calculate()}!');
-}
+    Map<String,String>contactos={
+      "juan":"303094049"
+      "zamora":"3938494"
+      "nicolas":"3443433"
+    };
+    print("lista de contactos:");
+    contactos.forEach((nombre,telefono){
+      print("$nombre:$telefono");
+    });
+    }
